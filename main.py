@@ -1,1 +1,0 @@
-print("shoya", 1, 7, sep="+")
