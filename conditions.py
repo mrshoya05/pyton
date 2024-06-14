@@ -31,3 +31,33 @@ elif(num>0):
 else:
     print("number is zero !")
 
+#case statement 
+#using match function 
+x = int(input("enter value :"))
+
+match x:
+  case 0:
+    print("hello ")
+  case 1:
+    print("hi")
+  case _:
+    print("bye")
+
+#match case statements 
+x = int(input("enter value"))
+
+match x:
+    case 1:
+        print("sunday")
+    case 2:
+        print("monday")
+    case 3: 
+        print("wednesday")
+    case 4:
+        print("thursday")
+    case 5: 
+        print("Friday")
+    case 6:
+        print("saturday")
+    case _:
+        print("invalid entry  !")
