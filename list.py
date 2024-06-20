@@ -18,3 +18,13 @@ if "ho" in "shoya":
 
 x = [ i*2 for i in range(10)]
 print(x)
+
+tup = (1,2,3)
+list1 = list(tup)
+res = tup.count(1)
+
+list1.pop(2)
+print(list1)
+tup = (2,3,4,3,5,6,7,88,9,9, 3, 2,9)
+res = tup.index(3)
+print(res)
