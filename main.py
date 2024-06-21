@@ -12,4 +12,8 @@
 # else:
 #       print("disqualifided...")
 
-
+dic = {
+    "harry": "human",
+    34: "riya"
+}
+print(dic.items())
